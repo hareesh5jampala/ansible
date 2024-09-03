@@ -16,3 +16,5 @@
       TRAINER: "Sivakumar Reddy"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}"
+
+#1.commnd line/args      
