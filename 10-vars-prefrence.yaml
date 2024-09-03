@@ -11,10 +11,11 @@
   tasks:
   - name: print the course information
     vars:
-      COURSE: "DevOps with AWS from TASK level"
+      #COURSE: "DevOps with AWS from TASK level"
       DURATION: "120Hrs"
       TRAINER: "Sivakumar Reddy"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}"
 
-#1.commnd line/args      
+#1.commnd line/args
+#2.Task Level      
