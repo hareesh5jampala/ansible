@@ -11,7 +11,7 @@
 
 
   - name: print the information gain
-    vars: #task level variables
+    vars: #task level variables override play level
       COURSE: "ANSIBLE"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer: {{TRAINER}}"
