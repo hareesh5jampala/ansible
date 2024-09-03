@@ -2,11 +2,11 @@
   hosts: web
   vars_prompt:
   - name: COURSE
-    PROMPT: Please enter the course name
+    prompt: Please enter the course name
   - name: TRAINER
-    PROMPT: Please enter the trainer name
+    prompt: Please enter the trainer name
   - name: DURATION
-    PROMPT: Please enter the duration   
+    prompt: Please enter the duration   
     
   tasks:
   - name: print the course information
