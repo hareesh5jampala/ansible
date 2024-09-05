@@ -9,6 +9,7 @@
     - mysql
     - backend
     - frontend
+    zone: hareesh5jampala.online
   tasks:
     - name: create ec2 instance
       amazon.aws.ec2_instance:
